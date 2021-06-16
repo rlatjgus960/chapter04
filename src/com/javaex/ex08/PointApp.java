@@ -3,7 +3,7 @@ package com.javaex.ex08;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
+ 
 public class PointApp {
 
 	//메소드 일반
