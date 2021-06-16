@@ -12,6 +12,7 @@ public class PointApp {
 		
 		List<Point> pList = new ArrayList<Point>();
 		
+		
 		Point p01 = new Point(2,4);
 		Point p02 = new Point(3,6);
 		Point p03 = new Point(4,8);
@@ -25,6 +26,7 @@ public class PointApp {
 		
 		pList.add(p03);
 		
+		System.out.println(pList.toString());
 		Point p = pList.get(1);
 		System.out.println(p.getX());
 		System.out.println(p.getY());
