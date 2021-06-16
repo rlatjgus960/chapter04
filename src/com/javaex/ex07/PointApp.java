@@ -32,8 +32,18 @@ public class PointApp {
 		pSet.add(p04);
 		System.out.println(pSet.toString());
 		
+		//Point 비교 --> equals()
+		System.out.println(p02.equals(p04)); //equals()로직, 정의한거 비교
+		System.out.println(p01.equals(p04));
+		System.out.println(p02==p04); //기본자료형 비교, 아니면 주소비교
 		
-
+		
+		//hashcode
+		System.out.println(p01.hashCode());
+		System.out.println(p02.hashCode());
+		System.out.println(p03.hashCode());
+		System.out.println(p04.hashCode());
+		
 	}
 
 }
